@@ -24,9 +24,11 @@
             <h3>En sıcak kwitler</h3>
             <hr>
 
-            <div class="kwit">
-                <p>Bu bir kwit, valla bak. :(</p>
-            </div>
+            {% for post in posts %}
+                <div class="kwit">
+                    <p>{{ post.content }}</p>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </body>
