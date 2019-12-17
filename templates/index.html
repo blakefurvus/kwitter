@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kwitter</title>
+
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Kwitter</h1>
+    </header>
+
+    <div id="main">
+        <form>
+            <textarea placeholder="Kwit Buraya..."></textarea>
+            <input type="submit" value="Kwitle Moruq">
+        </form>
+    
+        <div id="posts">
+            <h3>En sıcak kwitler</h3>
+            <hr>
+
+            <div class="kwit">
+                <p>Bu bir kwit, valla bak. :(</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
